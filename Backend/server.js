@@ -34,3 +34,5 @@ mongoose
     // app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
 })
 .catch((err) => console.error("MongoDB connection error:", err.message));
+
+module.exports = app;
