@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_URL = 'https://learnhub1-ten.vercel.app//api/students';
+const API_URL = 'https://learnhub1-ten.vercel.app/api/students';
 
 const initialForm = { name: '', email: '', age: '', city: '', course: '', phone: '' };
 
