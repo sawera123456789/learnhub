@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import CourseCard from "../components/CourseCard";
 
-const API_URL = "https://learnhub1-ten.vercel.app//api/courses";
+const API_URL = "https://learnhub1-ten.vercel.app/api/courses";
 
 function Home() {
     const [courses, setCourses] = useState([]);
